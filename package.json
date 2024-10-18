@@ -1,15 +1,30 @@
 {
   "name": "better-aliexpress",
+  "description": "Browser extension to improve the Aliexpress experience",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "prettier . --check",
+    "lint:write": "prettier .",
+    "test": "pnpm exec playwright test",
+    "test:ui": "pnpm exec playwright test --ui",
+    "clean": "rm -rf ./dist"
   },
   "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@samrum/vite-plugin-web-extension": "^5.1.1",
+    "@types/chrome": "^0.0.278",
+    "@types/node": "^22.10.1",
+    "@types/webextension-polyfill": "^0.12.1",
+    "prettier": "3.4.1",
     "typescript": "^5.5.3",
     "vite": "^5.4.8"
+  },
+  "dependencies": {
+    "webextension-polyfill": "^0.12.0"
   }
 }

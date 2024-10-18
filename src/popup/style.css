@@ -1,0 +1,79 @@
+:root {
+  color-scheme: light dark;
+  --color-red: #dd2c00;
+  --color-orange: #ff8f00;
+  --color-dark-surface: #191919;
+  --color-light-surface: #ffffff;
+}
+
+@font-face {
+  font-family: AvenirLTStd-Medium;
+  src: url('/fonts/AvenirLTStd-Medium.otf') format('opentype');
+}
+
+.body {
+  font-family: AvenirLTStd-Medium, system-ui, sans-serif;
+  display: grid;
+  margin: 1rem;
+  min-width: 250px;
+  grid-gap: 1.25rem;
+  color: light-dark(var(--color-dark-surface), var(--color-light-surface));
+  background-color: light-dark(var(--color-light-surface), var(--color-dark-surface));
+}
+
+.header {
+  --content-height: 2rem;
+
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  gap: 1.25rem;
+
+  img,
+  h1 {
+    height: var(--content-height);
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: var(--content-height);
+  }
+}
+
+.main {
+  display: grid;
+  place-items: center;
+
+  .config-container {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .feature {
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: 2rem 1fr;
+
+    input[type='checkbox'] {
+      height: 1.25rem;
+      align-self: center;
+      accent-color: var(--color-orange);
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    height: 1.5rem;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    img {
+      filter: invert(1);
+    }
+  }
+}
