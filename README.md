@@ -83,19 +83,26 @@ The extension is not available in the Chrome Web Store or Firefox Add-ons store,
 1. Download the ZIP file from [GitHub Releases](https://github.com/DerStimmler/better-aliexpress/releases).
 2. Extract the ZIP file to a folder.
 
-### Google Chrome
+### Chromium (Google Chrome, Edge, Brave, ...)
 
-3. Open `chrome://extensions/` in Chrome (or go to _More tools_ > _Extensions_).
-4. Enable _Developer mode_ at the top-right.
-5. Click _Load unpacked_ and select the folder where you extracted the ZIP.
-6. The extension will appear in your extensions list and its icon will show in the toolbar.
+3. Open `chrome://extensions/` in Chrome (or go to _More tools_ > _Extensions_)
+4. Enable _Developer mode_
+5. Click _Load unpacked_ and select the folder where you extracted the ZIP
+6. The extension will appear in your extensions list and its icon will show in the toolbar
 
 ### Firefox
 
-3. Open `about:addons` in Firefox (or go to _Add-ons and themes_).
-4. Click the gear icon and select _Install Add-on From File..._.
-5. Choose the extracted folder and select the `manifest.json` file.
-6. The extension will appear in your add-ons list and its icon will show in the toolbar.
+Because the extension is not signed yet, you can only install it temporarily. It will be removed automatically when you close the browser.
+
+3. Open `about:debugging#/runtime/this-firefox` in Firefox
+4. Click _Load Temporary Add-on..._
+5. Choose the extracted folder and select the `manifest.json` file
+6. The extension will appear in your add-ons list and its icon will show in the toolbar
+
+## Compatibility
+
+> [!IMPORTANT]
+> Currently the extension only works on AliExpress sites with the domain `https://*.aliexpress.com`
 
 ## Development
 

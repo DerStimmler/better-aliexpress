@@ -53,6 +53,7 @@
     display: grid;
     gap: 1.25rem;
     grid-template-columns: 2rem 1fr;
+    font-size: larger;
 
     input[type='checkbox'] {
       height: 1.25rem;
