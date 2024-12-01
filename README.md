@@ -14,36 +14,36 @@ Extension to enhance your AliExpress experience
 <details>
   <summary><b>Optimize search results layout</b></summary>
 
-- increases space between results
-- show results as cards
-- remove hover effect on results
-- always show available buttons for result
-- unify order of elements in result card
-- unify button colors
-- unify height of result cards
+- Expand the spacing between results for improved readability
+- Display results in a card-based layout
+- Eliminate hover effects on results
+- Ensure all available buttons for each result are always visible
+- Standardize the order of elements within result cards
+- Use consistent colors for buttons across all cards
+- Ensure all result cards have a uniform height
 
-| Before                                                                                               | After                                                                                              |
-| ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| <img src="./docs/img/optimize-results-layout-before.png" alt="optimize layout before" height="256"/> | <img src="./docs/img/optimize-results-layout-after.png" alt="optimize layout after" height="256"/> |
+| Before                                                                                                              | After                                                                                                             |
+| ------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| <img src="./docs/img/optimize-results-layout-before.png" alt="optimize search results layout before" height="256"/> | <img src="./docs/img/optimize-results-layout-after.png" alt="optimize search results layout after" height="256"/> |
 
 </details>
 
 <details>
   <summary><b>Optimize navigation</b></summary>
 
-- adds dropdown to header for switching between Normal, Choice and Bundle pages
-- removes redundant choice and bundle links from menu
+- Add a dropdown to the header for switching between Normal, Choice, and Bundle pages
+- Remove redundant Choice and Bundle links from the menu
 
-| Before                                                                      | After                                                                         |
-| --------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| <img src="./docs/img/choice-menu-links.png" alt="sidebar ads" height="96"/> | <img src="./docs/img/navigation-dropdown.png" alt="sidebar ads" height="96"/> |
+| Before                                                                     | After                                                                                 |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| <img src="./docs/img/choice-menu-links.png" alt="menu links" height="64"/> | <img src="./docs/img/navigation-dropdown.png" alt="navigation dropdown" height="64"/> |
 
 </details>
 
 <details>
   <summary><b>Hide social icons</b></summary>
 
-- Hides the sidebar with social icon links.
+- Hide the sidebar with social icon links
 
   <img src="./docs/img/social-icons.png" alt="social icons sidebar" height="128"/>
 </details>
@@ -51,7 +51,7 @@ Extension to enhance your AliExpress experience
 <details>
   <summary><b>Hide sidebar ads</b></summary>
 
-- Hides popup ads on the side of the screen
+- Hide popup ads on the side of the screen
 
   <img src="./docs/img/sidebar-ads.png" alt="sidebar ads" height="96"/>
 </details>
@@ -59,33 +59,33 @@ Extension to enhance your AliExpress experience
 <details>
   <summary><b>Hide fullscreen popups</b></summary>
 
-- Hides fullscreen popup ads
+- Hide fullscreen popup ads
 
-  <img src="./docs/img/popup-ads.png" alt="sidebar ads" height="164"/>
+  <img src="./docs/img/popup-ads.png" alt="sidebar ads" height="196"/>
 </details>
 
 <details>
   <summary><b>Open results in same tab</b></summary>
 
-- By default clicks on a search result is opened in a new tab. When activated the details page of the result is opened in the current tab.
+- By default, clicks on a search result open in a new tab. When activated, the details page of the result opens in the current tab
 </details>
 
 <details>
   <summary><b>Open details page for bundle products</b></summary>
 
-- By default clicks on a search result of a bundle product navigates to the bundle offers page. When activated it only does that when you click on the bundle button. Otherwise clicks will open the normal details page of the product.
+- By default, clicks on a search result of a bundle product navigate to the bundle offers page. When activated, it only does that when you click on the bundle button. Otherwise, clicks open the normal details page of the product
 </details>
 
 ## Installation
 
-The extension is not available in the Chrome Web Store or Firefox Add-ons store, so you'll need to install it manually.
+The extension is not available on the Chrome Web Store or Firefox Add-ons store, so manual installation is required.
 
-1. Download the ZIP file from [GitHub Releases](https://github.com/DerStimmler/better-aliexpress/releases).
-2. Extract the ZIP file to a folder.
+1. Download the ZIP file from [GitHub Releases](https://github.com/DerStimmler/better-aliexpress/releases)
+2. Extract the ZIP file to a folder
 
 ### Chromium (Google Chrome, Edge, Brave, ...)
 
-3. Open `chrome://extensions/` in Chrome (or go to _More tools_ > _Extensions_)
+3. Open `chrome://extensions/`
 4. Enable _Developer mode_
 5. Click _Load unpacked_ and select the folder where you extracted the ZIP
 6. The extension will appear in your extensions list and its icon will show in the toolbar
@@ -94,10 +94,16 @@ The extension is not available in the Chrome Web Store or Firefox Add-ons store,
 
 Because the extension is not signed yet, you can only install it temporarily. It will be removed automatically when you close the browser.
 
-3. Open `about:debugging#/runtime/this-firefox` in Firefox
+3. Open `about:debugging#/runtime/this-firefox`
 4. Click _Load Temporary Add-on..._
 5. Choose the extracted folder and select the `manifest.json` file
 6. The extension will appear in your add-ons list and its icon will show in the toolbar
+
+## Usage
+
+Open the extension popup from your toolbar and toggle the features you wish to enable or disable.
+
+<img src="./docs/img/toolbar-popup.png" alt="extension popup" height="256"/>
 
 ## Compatibility
 
