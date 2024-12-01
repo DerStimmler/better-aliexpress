@@ -122,3 +122,9 @@ Open the extension popup from your toolbar and toggle the features you wish to e
 - Run dev server `pnpm dev`
 - Fix linting `pnpm lint:write`
 - Run e2e tests with ui `pnpm test:ui`
+
+### Add a new feature
+
+1. Add a new feature key of type `FeatureKey` in `src/lib/feature-key.ts`
+2. Create a new file inside `src/lib/features` containing two methods: one for when the feature is activated and another for when it's deactivated
+3. Add a new entry to the `features` array in `src/lib/features/features.ts`
