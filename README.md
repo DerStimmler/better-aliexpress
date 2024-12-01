@@ -14,17 +14,18 @@ Extension to enhance your AliExpress experience
 <details>
   <summary>Optimize search results layout</summary>
 
-  - increases space between results
-  - show results as cards
-  - remove hover effect on results
-  - always show available buttons for result
-  - unify order of elements in result card
-  - unify button colors
-  - unify height of result cards
+- increases space between results
+- show results as cards
+- remove hover effect on results
+- always show available buttons for result
+- unify order of elements in result card
+- unify button colors
+- unify height of result cards
 
 | Before                                                                                       | After                                                                                      |
-|----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | <img src="./docs/img/optimize-layout-before.png" alt="optimize layout before" height="256"/> | <img src="./docs/img/optimize-layout-after.png" alt="optimize layout after" height="256"/> |
+
 </details>
 
 <details>
@@ -33,9 +34,10 @@ Extension to enhance your AliExpress experience
 - adds dropdown to header for switching between Normal, Choice and Bundle pages
 - removes redundant choice and bundle links from menu
 
-| Before                                                                      | After                                                                                      |
-|-----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| Before                                                                      | After                                                                         |
+| --------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | <img src="./docs/img/choice-menu-links.png" alt="sidebar ads" height="96"/> | <img src="./docs/img/navigation-dropdown.png" alt="sidebar ads" height="96"/> |
+
 </details>
 
 <details>
@@ -83,15 +85,15 @@ The extension is not available in the Chrome Web Store or Firefox Add-ons store,
 
 ### Google Chrome
 
-3. Open `chrome://extensions/` in Chrome (or go to *More tools* > *Extensions*).
-4. Enable *Developer mode* at the top-right.
-5. Click *Load unpacked* and select the folder where you extracted the ZIP.
+3. Open `chrome://extensions/` in Chrome (or go to _More tools_ > _Extensions_).
+4. Enable _Developer mode_ at the top-right.
+5. Click _Load unpacked_ and select the folder where you extracted the ZIP.
 6. The extension will appear in your extensions list and its icon will show in the toolbar.
 
 ### Firefox
 
-3. Open `about:addons` in Firefox (or go to *Add-ons and themes*).
-4. Click the gear icon and select *Install Add-on From File...*.
+3. Open `about:addons` in Firefox (or go to _Add-ons and themes_).
+4. Click the gear icon and select _Install Add-on From File..._.
 5. Choose the extracted folder and select the `manifest.json` file.
 6. The extension will appear in your add-ons list and its icon will show in the toolbar.
 

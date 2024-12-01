@@ -9,7 +9,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "prettier . --check",
-    "lint:write": "prettier .",
+    "lint:write": "prettier . --write",
     "test": "pnpm exec playwright test",
     "test:ui": "pnpm exec playwright test --ui",
     "clean": "rm -rf ./dist"
