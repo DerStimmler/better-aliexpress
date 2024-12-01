@@ -12,7 +12,7 @@ Extension to enhance your AliExpress experience
 ## Features
 
 <details>
-  <summary>Optimize search results layout</summary>
+  <summary><b>Optimize search results layout</b></summary>
 
 - increases space between results
 - show results as cards
@@ -22,14 +22,14 @@ Extension to enhance your AliExpress experience
 - unify button colors
 - unify height of result cards
 
-| Before                                                                                       | After                                                                                      |
-| -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| <img src="./docs/img/optimize-layout-before.png" alt="optimize layout before" height="256"/> | <img src="./docs/img/optimize-layout-after.png" alt="optimize layout after" height="256"/> |
+| Before                                                                                               | After                                                                                              |
+| ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| <img src="./docs/img/optimize-results-layout-before.png" alt="optimize layout before" height="256"/> | <img src="./docs/img/optimize-results-layout-after.png" alt="optimize layout after" height="256"/> |
 
 </details>
 
 <details>
-  <summary>Optimize navigation</summary>
+  <summary><b>Optimize navigation</b></summary>
 
 - adds dropdown to header for switching between Normal, Choice and Bundle pages
 - removes redundant choice and bundle links from menu
@@ -41,7 +41,7 @@ Extension to enhance your AliExpress experience
 </details>
 
 <details>
-  <summary>Hide social icons</summary>
+  <summary><b>Hide social icons</b></summary>
 
 - Hides the sidebar with social icon links.
 
@@ -49,7 +49,7 @@ Extension to enhance your AliExpress experience
 </details>
 
 <details>
-  <summary>Hide sidebar ads</summary>
+  <summary><b>Hide sidebar ads</b></summary>
 
 - Hides popup ads on the side of the screen
 
@@ -57,7 +57,7 @@ Extension to enhance your AliExpress experience
 </details>
 
 <details>
-  <summary>Hide fullscreen popups</summary>
+  <summary><b>Hide fullscreen popups</b></summary>
 
 - Hides fullscreen popup ads
 
@@ -65,13 +65,13 @@ Extension to enhance your AliExpress experience
 </details>
 
 <details>
-  <summary>Open results in same tab</summary>
+  <summary><b>Open results in same tab</b></summary>
 
 - By default clicks on a search result is opened in a new tab. When activated the details page of the result is opened in the current tab.
 </details>
 
 <details>
-  <summary>Open details page for bundle products</summary>
+  <summary><b>Open details page for bundle products</b></summary>
 
 - By default clicks on a search result of a bundle product navigates to the bundle offers page. When activated it only does that when you click on the bundle button. Otherwise clicks will open the normal details page of the product.
 </details>
