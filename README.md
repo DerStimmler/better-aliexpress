@@ -85,7 +85,7 @@ The extension is not available on the Chrome Web Store or Firefox Add-ons store,
 
 ### Chromium (Google Chrome, Edge, Brave, ...)
 
-3. Open `chrome://extensions/`
+3. Open `chrome://extensions`
 4. Enable _Developer mode_
 5. Click _Load unpacked_ and select the folder where you extracted the ZIP
 6. The extension will appear in your extensions list and its icon will show in the toolbar
@@ -125,6 +125,6 @@ Open the extension popup from your toolbar and toggle the features you wish to e
 
 ### Add a new feature
 
-1. Add a new feature key of type `FeatureKey` in `src/lib/feature-key.ts`
+1. Add a new feature key to type `FeatureKey` in `src/lib/feature-key.ts`
 2. Create a new file inside `src/lib/features` containing two methods: one for when the feature is activated and another for when it's deactivated
 3. Add a new entry to the `features` array in `src/lib/features/features.ts`

@@ -1,11 +1,10 @@
 import browser from 'webextension-polyfill';
-import { ToggleFeatureMessage } from '../lib/messages/toggle-feature-message.ts';
-import { MessageTypes } from '../lib/messages/message-types.ts';
-import { features } from '../lib/features/features.ts';
 import { ConfigStore } from '../lib/config/config-store.ts';
+import { features } from '../lib/features/features.ts';
+import { MessageTypes } from '../lib/messages/message-types.ts';
+import { ToggleFeatureMessage } from '../lib/messages/toggle-feature-message.ts';
 
 browser.runtime.onMessage.addListener((message: any, _) => {
-  console.log('received message', message);
   if (message.type !== MessageTypes.ToggleFeature) return undefined;
 
   const toggleFeatureMessage = message as ToggleFeatureMessage;
@@ -29,4 +28,4 @@ for (const feature of features) {
   featureActive ? feature.activate() : feature.disable();
 }
 
-console.log('content script injected');
+console.log('Better AliExpress script injected');

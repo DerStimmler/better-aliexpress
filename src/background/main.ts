@@ -1,8 +1,8 @@
 import browser from 'webextension-polyfill';
-import { ToggleFeatureMessage } from '../lib/messages/toggle-feature-message.ts';
-import { MessageTypes } from '../lib/messages/message-types.ts';
-import { features } from '../lib/features/features.ts';
 import { ConfigStore } from '../lib/config/config-store.ts';
+import { features } from '../lib/features/features.ts';
+import { MessageTypes } from '../lib/messages/message-types.ts';
+import { ToggleFeatureMessage } from '../lib/messages/toggle-feature-message.ts';
 
 browser.runtime.onInstalled.addListener(() => {
   console.log('Better AliExpress extension installed');
@@ -34,4 +34,4 @@ browser.tabs.onUpdated.addListener(async (tabId, changeInfo, tab) => {
   }
 });
 
-console.log('Run background script');
+console.log('Running Better AliExpress background script');
