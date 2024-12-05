@@ -76,9 +76,16 @@ Extension to enhance your AliExpress experience
 - By default, clicks on a search result of a bundle product navigate to the bundle offers page. When activated, it only does that when you click on the bundle button. Otherwise, clicks open the normal details page of the product
 </details>
 
+<details>
+  <summary><b>Optimize shopping carts (Planned)</b></summary>
+
+- Normal & Choice products have a different shopping cart as bundle products. When activated, the shopping cart will show all products regardless on which site you are currently on
+</details>
+
 ## Installation
 
 The extension is not available on the Chrome Web Store or Firefox Add-ons store, so manual installation is required.
+It is planned to bring the extension to these stores in the future.
 
 1. Download the ZIP file from [GitHub Releases](https://github.com/DerStimmler/better-aliexpress/releases)
 2. Extract the ZIP file to a folder
